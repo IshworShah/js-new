@@ -30,7 +30,7 @@ let stringInNumber = String(someNumber);
 
 
 
-// *************************************Operations****************************************************
+// ************************************************Operations**********************************************************************
 
 
 
@@ -91,6 +91,42 @@ g = f--;    // expected result(postfix) => f => 6, g => 7
 // console.log(f,g);
 
 
+
+
+
+//  ************************************************ Comparison Operators**********************************************************************
+
+
+//  ==      =>  equal to
+//  ===     =>  equal value and type
+//  !=      =>  not equal to 
+//  !==     =>  not equal value and type
+//  <       =>  less than
+//  >       =>  greater than 
+//  <=      =>  less than equal to
+//  >=      =>  greater than equal to
+//  ?:      =>  trenary
+
+
+
+
+// console.log(5 != 5); 
+// console.log(5 != "5");
+// expected result(not equal to) => false, false
+
+// console.log(0 != undefined)      // (true, null, undefined) value with 0 gives true but it gives false when write (false)
+
+
+
+
+// console.log(!(5 == 5));         //another approach to write not equal to => !(5 == 5)
+// console.log(5 !== "5");
+// expected result(not equal value and type) => false, true
+
+
+// console.log(true !== false);           // expected result(not equal value and type) =>  true
+// console.log("ishwor" !== 9);           // expected result(not equal value and type) =>  true
+// console.log("ishwor" !== "ishwor");    // expected result(not equal value and type) =>  false
 
 
 
