@@ -130,3 +130,9 @@ g = f--;    // expected result(postfix) => f => 6, g => 7
 
 
 
+// let v, n=5;
+// v=n++;
+// console.log(`n:${n}, v:${v}`);
+
+
+// "5"!==5 ? console.log("Its true"):console.log("Its false");  // Its trenary operators => ?:
