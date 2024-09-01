@@ -54,4 +54,14 @@ const myFunction = function(){
     console.log("Hello World");
 }
 
-console.log(typeof(myInfo));
+console.log(typeof(myInfo));            //expected result => oject
+console.log(typeof(myFunction));        //expected result => function => calls objectFunction too
+console.log(typeof(marvelHeroes));      //expected result => oject
+console.log(typeof(scoreValue));        //expected result => number
+console.log(typeof(score));             //expected result => number
+console.log(typeof(userName));          //expected result => string
+console.log(typeof(isLoggedIn));        //expected result => boolean
+console.log(typeof(userEmail));         //expected result => undefined
+console.log(typeof(id));                //expected result => symbol
+console.log(typeof(anotherId));         //expected result => symbol
+console.log(typeof(outSideTemp));         //expected result => object
