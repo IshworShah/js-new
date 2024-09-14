@@ -50,5 +50,5 @@ JsUser.getAnotherFunction = function(){     //created another function inside ob
 
 //Note: If freeze is used in the above line, then make that line comment so that only this below line will work.
 console.log(JsUser.getAnotherFunction())
-    console.log(JsUser.getFunction())
+    console.log(JsUser.getFunction())           // Note: () use huncha with function name..function lae print garda but object lae garda use hudeina just object name use huncha ..
     console.log(JsUser)
