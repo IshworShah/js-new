@@ -69,11 +69,53 @@ const users = [
 ] 
 
 // since array will be accessed with index and object will be accessed with (.)
-console.log(users[0].email)
+// console.log(users[0].email)
 
-console.log(tinderUser);
-console.log(Object.keys(tinderUser))        //prints the keys of object in the form of array
-console.log(Object.values(tinderUser))      //prints the values of object in the form of array
-console.log(Object.entries(tinderUser))     //prints the keys and values in an array inside of single array
+// console.log(tinderUser);
+// console.log(Object.keys(tinderUser))        //prints the keys of object in the form of array
+// console.log(Object.values(tinderUser))      //prints the values of object in the form of array
+// console.log(Object.entries(tinderUser))     //prints the keys and values in an array inside of single array
 
-console.log(tinderUser.hasOwnProperty('username'))  //checks whether the object has given value or not...give result in form of true/false
+// console.log(tinderUser.hasOwnProperty('username'))  //checks whether the object has given value or not...give result in form of true/false
+
+
+
+
+
+
+
+
+ //object destruccturing
+ const course = {
+    courseName: "JavaScript",
+    coursePrice: 999,
+    courseInstructor: "Hitesh"
+ }
+
+
+ //object destructuring
+ const {courseName:cName} = course        //this is a clean code we can use this to print or show output by destructuring the  objects.
+ console.log(cName);                      // can shorten the elements name inside {} by using : and use that shortname to print instead of any big name of elements
+ 
+//The below two lines of code is not a clean code to print one by one.
+//  console.log(course.courseInstructor,course.courseName)
+//  console.log(course.courseName)
+
+
+
+
+
+
+
+
+
+// JSON: JavaScript Object Notation
+// JSON is the same as an object, but the keys of JSON should be written in string.
+{
+    "userName" : "Ishwor",
+    "userAge" : 20,
+    "userAddress" : "Kerabari",
+    "userEmail" : "ishworshah050@gmail.com",
+    "userPhone" : 9825341897
+     
+}
