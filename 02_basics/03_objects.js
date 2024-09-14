@@ -36,7 +36,7 @@ JsUser.email = "NP05CP4A220052@iic.edu.np" //This wont run because freeze stops 
 console.log(JsUser)
 
 
-//declare function inside variable...
+//declare function inside variable getFunction...
 JsUser.getFunction = function(){            //created function inside object
     console.log("Hello I am Mr.Unknown")
 }
